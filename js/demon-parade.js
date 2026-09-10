@@ -47,15 +47,15 @@ if (parade) {
         const width = window.innerWidth;
 
         if (width <= 420) {
-            return 2;
-        }
-
-        if (width <= 700) {
             return 4;
         }
 
+        if (width <= 700) {
+            return 6;
+        }
+
         if (width <= 1000) {
-            return 7;
+            return 9;
         }
 
         return 12;
