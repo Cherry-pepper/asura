@@ -13,7 +13,18 @@ const paradeImages = [
     "dp07.png",
     "dp08.png",
     "dp09.png",
-    "dp10.png"
+    "dp10.png",
+    "dp11.png",
+    "dp12.png",
+    "dp13.png",
+    "dp14.png",
+    "dp15.png",
+    "dp16.png",
+    "dp17.png",
+    "dp18.png",
+    "dp19.png",
+    "dp20.png",
+    "dp21.png"
     // Add more filenames here as you upload them.
 ];
 
