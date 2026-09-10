@@ -51,14 +51,14 @@ if (parade) {
         }
 
         if (width <= 700) {
-            return 3;
+            return 4;
         }
 
         if (width <= 1000) {
-            return 5;
+            return 7;
         }
 
-        return 8;
+        return 12;
     }
 
     const shuffledImages = shuffle(paradeImages);
