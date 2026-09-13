@@ -16,7 +16,8 @@
     --beni: #A3363D;
     --moonlight: #B8D9E0;
 
-    --text: #252525;
+    --dark: #252525;
+    --text: #77392a4c
     --white: #FAF8F2;
 }
 
@@ -652,7 +653,7 @@ p {
 
 .site-header {
     width: 100%;
-    background: var(--fujinezu);
+    background: var(--dark);
 }
 
 .demon-parade {
