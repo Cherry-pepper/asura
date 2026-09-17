@@ -17,7 +17,7 @@
     --moonlight: #B8D9E0;
 
     --dark: #252525;
-    --text: #77392a4c
+    --text: #773924;
     --white: #FAF8F2;
 }
 
@@ -584,6 +584,12 @@ p {
   15. HOMEPAGE NAVIGATION
    ========================================================= */
 
+.home-content {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 55px 35px 75px;
+}
 .home-navigation {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
