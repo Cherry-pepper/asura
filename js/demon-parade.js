@@ -44,8 +44,7 @@ if (parade) {
     }
 
     const shuffledImages = shuffle(paradeImages);
-    const imageCount = Math.min(getImageCount(), shuffledImages.length);
-
+    
     for (let i = 0; i < imageCount; i++) {
 
         const img = document.createElement("img");
