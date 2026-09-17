@@ -690,7 +690,9 @@ p {
    --------------------------------------------------------- */
 
 @media (max-width: 700px) {
-
+   .home-content {
+        padding: 15px 20px 60px;
+}
     .demon-parade {
         height: 85px;
         gap: 5px;
