@@ -25,7 +25,6 @@ const paradeImages = [
     "dp19.png",
     "dp20.png",
     "dp21.png"
-    // Add more filenames here as you upload them.
 ];
 
 const parade = document.getElementById("demon-parade");
@@ -44,8 +43,8 @@ if (parade) {
     }
 
     const shuffledImages = shuffle(paradeImages);
-    
-    for (let i = 0; i < imageCount; i++) {
+
+    for (let i = 0; i < shuffledImages.length; i++) {
 
         const img = document.createElement("img");
 
