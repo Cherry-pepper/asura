@@ -618,7 +618,7 @@ p {
 
 .home-series-menu {
     display: grid;
-    grid-template-rows: 1.3fr 1fr 0.75fr;
+    grid-template-rows: 1.6fr 1fr 0.65fr;
     border-left: 3px solid #3D3945;
 }
 
