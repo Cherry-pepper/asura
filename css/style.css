@@ -619,7 +619,7 @@ p {
 .home-series-menu {
     display: grid;
     grid-template-rows: 1.3fr 1fr 0.75fr;
-    border-left: 1px solid #3D3945;
+    border-left: 3px solid #3D3945;
 }
 
 .home-series {
