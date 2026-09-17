@@ -586,14 +586,15 @@ p {
 
 .home-content {
     width: 100%;
-    max-width: 1150px;
-    margin: 0 auto;
     padding: 55px 35px 75px;
+    background: var(--dark);
 }
+
 .home-navigation {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
 }
 
 .home-site-menu {
