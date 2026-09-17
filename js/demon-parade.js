@@ -43,24 +43,6 @@ if (parade) {
         return shuffled;
     }
 
-    function getImageCount() {
-        const width = window.innerWidth;
-
-        if (width <= 420) {
-            return 4;
-        }
-
-        if (width <= 700) {
-            return 6;
-        }
-
-        if (width <= 1000) {
-            return 9;
-        }
-
-        return 12;
-    }
-
     const shuffledImages = shuffle(paradeImages);
     const imageCount = Math.min(getImageCount(), shuffledImages.length);
 
