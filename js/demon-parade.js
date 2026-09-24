@@ -4,27 +4,27 @@
    ========================================================= */
 
 const paradeImages = [
-    "dp01.png",
-    "dp02.png",
-    "dp03.png",
-    "dp04.png",
-    "dp05.png",
-    "dp06.png",
-    "dp07.png",
-    "dp08.png",
-    "dp09.png",
-    "dp10.png",
-    "dp11.png",
-    "dp12.png",
-    "dp13.png",
-    "dp14.png",
-    "dp15.png",
-    "dp16.png",
-    "dp17.png",
-    "dp18.png",
-    "dp19.png",
-    "dp20.png",
-    "dp21.png"
+    "/assets/dp01.png",
+    "/assets/dp02.png",
+    "/assets/dp03.png",
+    "/assets/dp04.png",
+    "/assets/dp05.png",
+    "/assets/dp06.png",
+    "/assets/dp07.png",
+    "/assets/dp08.png",
+    "/assets/dp09.png",
+    "/assets/dp10.png",
+    "/assets/dp11.png",
+    "/assets/dp12.png",
+    "/assets/dp13.png",
+    "/assets/dp14.png",
+    "/assets/dp15.png",
+    "/assets/dp16.png",
+    "/assets/dp17.png",
+    "/assets/dp18.png",
+    "/assets/dp19.png",
+    "/assets/dp20.png",
+    "/assets/dp21.png"
 ];
 
 const parade = document.getElementById("demon-parade");
