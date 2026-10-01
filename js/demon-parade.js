@@ -42,16 +42,15 @@ if (parade) {
         return shuffled;
     }
 
-    const shuffledImages = shuffle(paradeImages);
+const shuffledImages = shuffle(paradeImages);
 
-    for (let i = 0; i < shuffledImages.length; i++) {
+for (let i = 0; i < shuffledImages.length; i++) {
 
-        const img = document.createElement("img");
+    const img = document.createElement("img");
 
-        img.src = "shuffledImages[i];
-        img.alt = "";
-        img.setAttribute("aria-hidden", "true");
+    img.src = shuffledImages[i];
+    img.alt = "";
+    img.setAttribute("aria-hidden", "true");
 
-        parade.appendChild(img);
-    }
+    parade.appendChild(img);
 }
