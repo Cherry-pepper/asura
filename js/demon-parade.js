@@ -4,27 +4,27 @@
    ========================================================= */
 
 const paradeImages = [
-    "/asura/assets/dp01.png",
-    "/asura/assets/dp02.png",
-    "/asura/assets/dp03.png",
-    "/asura/assets/dp04.png",
-    "/asura/assets/dp05.png",
-    "/asura/assets/dp06.png",
-    "/asura/assets/dp07.png",
-    "/asura/assets/dp08.png",
-    "/asura/assets/dp09.png",
-    "/asura/assets/dp10.png",
-    "/asura/assets/dp11.png",
-    "/asura/assets/dp12.png",
-    "/asura/assets/dp13.png",
-    "/asura/assets/dp14.png",
-    "/asura/assets/dp15.png",
-    "/asura/assets/dp16.png",
-    "/asura/assets/dp17.png",
-    "/asura/assets/dp18.png",
-    "/asura/assets/dp19.png",
-    "/asura/assets/dp20.png",
-    "/asura/assets/dp21.png"
+    "dp01.png",
+    "dp02.png",
+    "dp03.png",
+    "dp04.png",
+    "dp05.png",
+    "dp06.png",
+    "dp07.png",
+    "dp08.png",
+    "dp09.png",
+    "dp10.png",
+    "dp11.png",
+    "dp12.png",
+    "dp13.png",
+    "dp14.png",
+    "dp15.png",
+    "dp16.png",
+    "dp17.png",
+    "dp18.png",
+    "dp19.png",
+    "dp20.png",
+    "dp21.png"
 ];
 
 const parade = document.getElementById("demon-parade");
@@ -42,15 +42,20 @@ if (parade) {
         return shuffled;
     }
 
-const shuffledImages = shuffle(paradeImages);
+    const shuffledImages = shuffle(paradeImages);
 
-for (let i = 0; i < shuffledImages.length; i++) {
+    for (let i = 0; i < shuffledImages.length; i++) {
 
-    const img = document.createElement("img");
+        const img = document.createElement("img");
 
-    img.src = shuffledImages[i];
-    img.alt = "";
-    img.setAttribute("aria-hidden", "true");
+        img.src = new URL(
+            "../assets/" + shuffledImages[i],
+            document.currentScript.src
+        ).href;
 
-    parade.appendChild(img);
+        img.alt = "";
+        img.setAttribute("aria-hidden", "true");
+
+        parade.appendChild(img);
+    }
 }
