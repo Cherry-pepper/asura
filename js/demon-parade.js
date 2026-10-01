@@ -48,7 +48,7 @@ if (parade) {
 
         const img = document.createElement("img");
 
-        img.src = "assets/" + shuffledImages[i];
+        img.src = "shuffledImages[i];
         img.alt = "";
         img.setAttribute("aria-hidden", "true");
 
