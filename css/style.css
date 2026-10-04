@@ -237,7 +237,37 @@ p {
     opacity: 0.65;
 }
 
+.travel-photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 25px 0;
+}
 
+.travel-photos a {
+    display: block;
+}
+
+.travel-photos img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 180px;
+    max-height: 140px;
+    object-fit: contain;
+}
+
+@media (max-width: 600px) {
+    .travel-photos {
+        gap: 6px;
+        margin: 20px 0;
+    }
+
+    .travel-photos img {
+        max-width: 105px;
+        max-height: 85px;
+    }
+}
 /* ---------------------------------------------------------
    8. SERIES PAGES
    --------------------------------------------------------- */
